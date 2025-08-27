@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aventura Interativa</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
+</head>
+<body>
+  <div id="story-container">
+    <!-- Texto da história -->
+    <div id="story-text">
+      Você acorda em um mundo desconhecido, rodeado por cores vibrantes e um ar mágico. Duas portas se apresentam diante de você.
+    </div>
+
+    <!-- Botões para escolha -->
+    <button id="button1" onclick="makeChoice('floresta')">Explorar a floresta encantada</button>
+    <button id="button2" onclick="makeChoice('estrada')">Seguir pela estrada iluminada</button>
+
+    <!-- Seção de reinício da história -->
+    <div id="restart-section">
+      <button id="restart-button" onclick="restartStory()">Voltar ao início</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Link para o JavaScript -->
+</body>
+</html>
